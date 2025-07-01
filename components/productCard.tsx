@@ -45,7 +45,7 @@ const ProductCard = ({ product }: { product: IProduct }) => {
           <div
             className="text-gray-500 line-clamp-2 text-sm mb-2"
             dangerouslySetInnerHTML={{
-              __html: product.attributeValues.p_description.value[0].htmlValue,
+              __html: product.attributeValues.d_discription.value[0].htmlValue,
             }}
           />
           <p className="text-gray-600">
