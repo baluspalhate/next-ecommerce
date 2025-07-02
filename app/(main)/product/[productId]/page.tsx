@@ -116,7 +116,7 @@ export default function ProductDetailPage({
               className="text-gray-500"
               dangerouslySetInnerHTML={{
                 __html:
-                  product?.attributeValues?.p_description?.value?.[0]
+                  product?.attributeValues?.d_discription?.value?.[0]
                     ?.htmlValue || "",
               }}
             />
