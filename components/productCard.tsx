@@ -8,7 +8,7 @@ import { IProduct } from "@/types/product";
 import { toast } from "sonner";
 
 const ProductCard = ({ product }: { product: IProduct }) => {
-  const addToCart = useCartStore((state: any) => state.addToCart);
+  const addToCart = useCartStore((state) => state.addToCart);
   const handleAddToCart = (product: IProduct) => {
     addToCart({
       id: product.id,

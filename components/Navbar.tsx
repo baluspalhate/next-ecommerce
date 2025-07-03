@@ -27,7 +27,7 @@ export default function Navbar() {
   const [isLoading, setIsLoading] = useState(true);
   const mobileMenuRef = useRef<HTMLDivElement>(null);
   const router = useRouter();
-  const cartItems = useCartStore((state: any) => state.cart);
+  const cartItems = useCartStore((state) => state.cart);
 
   useEffect(() => {
     async function fetchUser() {
