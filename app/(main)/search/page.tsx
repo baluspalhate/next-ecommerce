@@ -53,7 +53,7 @@ function SearchComponent() {
                   },
                   price: product.price,
                   attributeValues: {
-                    p_description: product.attributeValues?.p_description || {
+                    d_discription: product.attributeValues?.d_discription || {
                       value: [],
                     },
                     p_price: product.attributeValues?.p_price || { value: 0 },
